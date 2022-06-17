@@ -19,8 +19,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun conServVoll(view: View) {
-        /*Hago uso de la clase Volley (Como para este ejemplo solo haré una petición no creo un
-        objeto) Creo una nueva cola de peticiones (RequestQueve) Agrego una petición a la cola .add */
         Volley.newRequestQueue(this).add(
             StringRequest(
                 Request.Method.GET, "https://gorest.co.in/public/v1/users",
