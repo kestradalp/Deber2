@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             var email = jsonArray.getJSONObject(i).getString("email").toString()
             var gender = jsonArray.getJSONObject(i).getString("gender").toString()
             var status = jsonArray.getJSONObject(i).getString("status").toString()
-            finalString += " ID:$id \n Nombre:$name \n Email:$email \n Género: $gender \n Status:$status \n\n\n"
+            finalString += " ID:$id \n Nombre:$name \n Email:$email \n Género: $gender \n Status:$status  \n\n\n"
         }
         return finalString
     }
